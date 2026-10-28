@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Polígrafo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Polígrafo</h1>
+    <p>Responda às perguntas abaixo:</p>
+    <h2 id="pergunta"></h2>
+    <button onclick="responder('sim')">Sim</button>
+    <button onclick="responder('nao')">Não</button>
+    <p id="numero"></p>
+    <h2 id="resultado"></h2>
+    <p id="total"></p>
+    <button id="reiniciar" onclick="comecar()" hidden>
+        Responder novamente
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>
